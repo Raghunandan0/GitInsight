@@ -1,0 +1,417 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+} */
+
+/* .search {
+  display: flex;
+  width: 50%;
+  max-width: 60rem;
+}
+.search input {
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+.search input:focus-visible {
+  outline: 1px solid purple;
+}
+
+.primary-btn {
+  background: purple;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.primary-btn:hover {
+  background: rgba(55, 1, 55, 0.788);
+}
+.primary-btn:active {
+  background: rgba(231, 59, 231, 0.788);
+} */
+
+/* For Card */
+/* 
+#profileContainer {
+  width: 100%;
+}
+.profile-box {
+  margin: auto;
+  padding: 4rem 2rem;
+  width: 90%;
+  max-width: 78rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  transition: 0.5s ease-in;
+}
+.profile-box:hover {
+  transform: rotate(-2deg) scale(1.01);
+  transition: 0.5s ease-in;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.top-section button {
+  align-self: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.left h1 {
+  font-size: 1.6rem;
+}
+
+.avatar {
+  height: 10rem;
+  width: 10rem;
+}
+.avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.about {
+  margin: 2rem;
+}
+
+.status {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.status-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
+
+
+
+/* 
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap");
+
+:root {
+  --bg: linear-gradient(135deg, #c850c0, #4158d0);
+  --card-bg: rgba(255, 255, 255, 0.1);
+  --text-color: white;
+}
+
+[data-theme="light"] {
+  --bg: #f3f3f3;
+  --card-bg: white;
+  --text-color: black;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  font-family: "Oswald", sans-serif;
+  font-size: 62.5%;
+  background: var(--bg);
+  color: var(--text-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+h1 { font-size: 3rem; margin-bottom: 1rem; }
+
+.search {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search input {
+  padding: 1rem;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+.primary-btn, .theme-toggle {
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  background: linear-gradient(45deg, purple, #6a0dad);
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.primary-btn:hover, .theme-toggle:hover { transform: scale(1.05); }
+
+.theme-toggle { font-size: 1.6rem; }
+
+#loading { font-size: 1.6rem; margin-bottom: 1rem; }
+
+.profile-box {
+  background: var(--card-bg);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+  animation: fadeIn 0.6s ease;
+}
+
+.avatar img {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid var(--text-color);
+}
+
+.status, .repos, .followers, .activity {
+  margin-top: 2rem;
+}
+
+.status-item, .repo, .follower {
+  margin: 1rem 0;
+}
+
+.repo a { color: var(--text-color); text-decoration: none; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .search { flex-direction: column; width: 100%; }
+  .search input { width: 100%; }
+} */
+
+
+
+
+
+
+/* =====================
+   RESET & BASE STYLES
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg-gradient);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+:root {
+  --bg-gradient: linear-gradient(135deg, #0d1117, #161b22);
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --border-color: rgba(255, 255, 255, 0.15);
+  --text-color: #f0f0f0;
+  --primary-color: #2f81f7;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="light"] {
+  --bg-gradient: linear-gradient(135deg, #f0f2f5, #dfe3e6);
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --text-color: #222;
+  --primary-color: #0366d6;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* =====================
+   CONTAINER & TITLE
+===================== */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+}
+
+/* =====================
+   SEARCH BAR + TOGGLE
+===================== */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.search input {
+  padding: 12px;
+  width: 250px;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search input:focus {
+  border-color: var(--primary-color);
+}
+
+.primary-btn {
+  padding: 12px 18px;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  transition: background 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #1a5edb;
+}
+
+.theme-toggle {
+  font-size: 20px;
+  background: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* =====================
+   PROFILE CARD
+===================== */
+.profile-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: var(--shadow);
+  animation: fadeIn 0.5s ease;
+}
+
+.profile-box .avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid var(--primary-color);
+}
+
+.profile-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.profile-box p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.status {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+/* =====================
+   ANIMATED BACKGROUND
+===================== */
+body::before {
+  content: "";
+  position: fixed;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at top right, rgba(47,129,247,0.15), transparent 70%),
+              radial-gradient(circle at bottom left, rgba(240,246,252,0.08), transparent 70%);
+  animation: floatBg 20s linear infinite;
+  z-index: -1;
+}
+
+@keyframes floatBg {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(-20px, 20px); }
+  100% { transform: translate(0, 0); }
+}
+
+/* =====================
+   ANIMATIONS
+===================== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =====================
+   RESPONSIVE DESIGN
+===================== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .search input {
+    width: 100%;
+  }
+}
+
