@@ -1,10 +1,5 @@
 # **GitInsight** 🚀
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/github-profile-explorer?style=flat-square) 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/github-profile-explorer?style=flat-square) 
-![GitHub forks](https://img.shields.io/github/forks/yourusername/github-profile-explorer?style=flat-square) 
-![GitHub license](https://img.shields.io/github/license/yourusername/github-profile-explorer?style=flat-square)
-
 **Unlock in-depth GitHub profiles with a single search!**  
 A modern, responsive web app that fetches real-time GitHub user data, top repositories, followers, recent activity, and contribution graphs with dark/light theme support.
 
@@ -46,7 +41,8 @@ A modern, responsive web app that fetches real-time GitHub user data, top reposi
 ## **📸 Demo / Screenshots**
 <img src="https://github.com/user-attachments/assets/989066ac-975b-49d2-890f-16ba8bb46f3f" alt="Screenshot 2025-08-24 014351" width="800"/>
 
-<img src="https://github.com/user-attachments/assets/4a4df71f-1080-46d8-a4ca-8b933b71a9ba" alt="Screenshot 2025-08-24 014405" width="800"/>
+<img src="https://github.com/user-attachments/assets/b9e97ff8-dfbd-499c-a815-8e7a857dfd84" alt="Screenshot 2025-08-24 015236" width="800"/>
+
 
 
 ---
