@@ -48,7 +48,7 @@ A modern, responsive web app that fetches real-time GitHub user data, top reposi
 ---
 
 ## **🚀 Live Demo**
-[View Live Demo](https://your-live-demo-link.com)  
+[View Live Demo](https://git-insight-black.vercel.app/)  
 
 ---
 
