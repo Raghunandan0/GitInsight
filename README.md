@@ -38,7 +38,7 @@ A modern, responsive web app that fetches real-time GitHub user data, top reposi
 
 ---
 
-## **📸 Demo / Screenshots**
+## **📸 Screenshots**
 <img src="https://github.com/user-attachments/assets/989066ac-975b-49d2-890f-16ba8bb46f3f" alt="Screenshot 2025-08-24 014351" width="800"/>
 
 <img src="https://github.com/user-attachments/assets/b9e97ff8-dfbd-499c-a815-8e7a857dfd84" alt="Screenshot 2025-08-24 015236" width="800"/>
