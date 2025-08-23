@@ -1,4 +1,4 @@
-##🚀**GitInsight** – Modern GitHub Profile Explorer
+## 🚀 **GitInsight** – Modern GitHub Profile Explorer
 
 **Unlock in-depth GitHub profiles with a single search!**  
 A modern, responsive web app that fetches real-time GitHub user data, top repositories, followers, recent activity, and contribution graphs with dark/light theme support.
