@@ -11,7 +11,7 @@ A modern, responsive web app that fetches real-time GitHub user data, top reposi
 - **Glassmorphism UI:** Transparent cards with `backdrop-filter: blur()`.  
 - **Gradient background:** Elegant linear-gradient (`#c850c0 → #4158d0`).  
 - **Dark/Light theme toggle:** Smooth transition using CSS variables.  
-- **Animations:** Fade-in for profile cards; hover scale effects for buttons and icons.  
+- **Animations:** Fade-in for profile cards; hover scale effects for buttons and icons. 
 - **Fully responsive:** Optimized for mobile, tablet, and desktop.  
 
 ### **Profile Data**
